@@ -1,0 +1,169 @@
+/* Agregar: fuentes de Google, iconos de FontAwesome */
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,100;0,300;0,700;1,300 & display=swap');
+  
+
+/* ESTILO EN TODO EL HTML */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO EN TODO HEADER */
+/* header {
+    display: flex;
+    border: 3px solid burlywood;
+    background-color: azure;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+} */
+
+/* ESTILO EN EL DIV DENTRO DEL HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    border: 3px solid burlywood;
+    height: 100px;
+    width: auto;
+    gap: 100px;
+    
+}
+
+.logo {
+    display: flex;
+    padding: 1px;
+}
+
+.logo img {
+    width: 120px;
+    height: 110px;
+
+}
+
+/* ESTILO EN BARRA DE NAVEGACIÓN. Elegir posición, agregar :hover */
+.barra-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+
+}
+
+.barra-nav a:hover {
+    color: azure;
+    background-color: chocolate;
+    width: auto;
+    margin: auto;
+    padding: 20px;     
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* ESTILOS EN ENLACES HREF */
+a {
+    text-decoration: none;
+}
+
+/* ESTILOS EN EL BODY */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 252, 251);
+    margin: 5px;
+}
+
+/* ESTILOS EN H1, H2, H3 */
+  h1 { 
+    color: rgb(199, 191, 83);
+    font-family: 'Sofia', cursive;
+    font-size: 24px;
+    align-content: center;
+    /* style="color:blueviolet; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"*/
+ }
+
+ p { 
+    color: black;
+ }
+
+ h2 {  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px; }
+      a { 
+        color: rgb(211, 89, 45);
+      }
+
+.main-section-index {
+    background-color: rgb(241, 241, 241);
+    height: 5%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ESTILOS EN IMÁGENES */
+img {
+    margin: 10px 5px;
+    padding: 7px;  
+}
+
+.fotos-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* ESTILOS EN TABLA */
+table,
+th,
+td {
+    table-layout: fixed;
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/* ESTILO SOLO EN EL TH */
+th {
+    background-color: bisque;
+}
+
+#carouselExampleSlidesOnly {
+    width: 18rem;
+}
+
+/* ESTILOS EN EL FORMULARIO */
+form {
+    margin: 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 40vh;
+    background-color: white;
+    border: solid;
+}
+
+/* ESTILOS INPUT y LABEL */
+input, label {
+    margin: 10px;
+    width: 80%;
+}
+
+/* ESTILO EN EL BOTÓN ENVIAR DEL FORMULARIO */
+.enviar {
+    width: fit-content;
+}
+
+/* ESTILOS EN EL FOOTER */
+footer {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
