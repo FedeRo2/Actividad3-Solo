@@ -24,13 +24,10 @@
 
 <body>
     <div class="container-fluid">
-        <div class="header">
             <header>
                 <!-- Aquí va el logo del sitio web-->
                 <div class="logo">
-
-                    <a href="./index.html"> <img src="./img/logo.png" alt="Logo" height="200px"> </a>
-
+                    <a href="./index.html"> <img src="./img/logo.png" alt="Logo"> </a>
                 </div>
 
                 <ul class="nav justify-content-center">
@@ -45,22 +42,15 @@
                     </li>
                 </ul>
 
-
-                <!--Aquí está la barra de navegación-->
-                <!--                 <nav class="barra-nav">
-                    <a href="./index.html">Inicio</a> |
-                    <a href="./productos.html">Productos</a> |
-                    <a href="./contacto.html">Contacto</a>
-                </nav> -->
             </header>
-        </div>
+        
 
         <br> <!--Esto en un salto de línea-->
         <br> <!--Esto en un salto de línea-->
 
 
-        <main class="container-fluid"> <!-- Aquí comienza el contenido principal-->
-            <div class="container text-center">
+        <main class="main"> <!-- Aquí comienza el contenido principal-->
+            <div class="text-center main">
                 <div class="row">
                     <div class="col">
                         <!--Columnas / Cantidad de columnas invisibles a cubrir / Breakpoints sm md lg xl xxl-->
@@ -78,23 +68,23 @@
 
             <br> <!--Esto en un salto de línea después del contenido principal-->
 
-            <section class="container-fluid">
+            <section class="container-carrusel">
 
                 <div id="carousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./img/torta-cliente-1.jpg" class="d-block w-75" alt="..." height="500px" width="500px">
+                            <img src="./img/1.jpeg" class="d-block w-100" alt="..." height="500px" width="500px">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/torta-cliente-2.jpg" class="d-block w-75" alt="..." height="500px" width="500px">
+                            <img src="./img/2.jpeg" class="d-block w-100" alt="..." height="500px" width="500px">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/torta-cliente-3.jpg" class="d-block w-75" alt="..." height="500px" width="500px">
+                            <img src="./img/3.jpeg" class="d-block w-100" alt="..." height="500px" width="500px">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/torta-cliente-4.jpg" class="d-block w-75" alt="..." height="500px" width="500px">
+                            <img src="./img/4.jpeg" class="d-block w-100" alt="..." height="500px" width="500px">
                         </div>
-                        <div class="carousel-item">
+                        <!-- <div class="carousel-item">
                             <img src="./img/cliente5.jpg" class="d-block w-100" alt="..." height="500px" width="500px">
                         </div>
                         <div class="carousel-item">
@@ -102,30 +92,40 @@
                         </div>
                         <div class="carousel-item">
                             <img src="./img/cliente7.jpg" class="d-block w-100" alt="..." height="500px" width="500px">
-                        </div>
+                        </div> -->
                     </div>
+            </section>
 
+            <section>
                     <h1 class="h1" class="testimonios">TESTIMONIOS</h1>
-                    <div>
-                        <p class="calificacion1">
-                            <label for="radio1">★★★★★</label>
-                        </p>
-                        <p>Excelente, tuve la oportunidad de pedir 2 veces sus productos y no me decepcionaron. </p>
-                        <p>-Lorena B</p>
+                    <div class="card-container">
+                        <div class="card">
+                            <p class="calificacion1">
+                                <label for="radio1">★★★★★</label>
+                            </p>
+                            <p>Excelente, tuve la oportunidad de pedir 2 veces sus productos y no me decepcionaron. </p>
+                            <p>-Lorena B</p>
+                        </div>
 
-                        <p class="calificacion2">
+                       <div class="card">
+                         <p class="calificacion2">
                             <label for="radio1">★★★★★</label>
                         </p>
                         <p>Muy recomendable, se nota que los ingredientes usados son de excelente calidad.</p>
                         <p>-Jose Luis</p>
+                       </div>
 
-                        <p class="calificacion3">
-                            <label for="radio1">★★★★★</label>
-                        </p>
-                        <p>Fui con la idea de una torta personalizada para el cumpleaños de mi hijo y la verdad me
-                            asesoraron muy bien, la torta exquisita.</p>
-                        <p>-Milagros G</p>
-
+                        <div class="card">
+                            <p class="calificacion3">
+                                <label for="radio1">★★★★★</label>
+                            </p>
+                            <p>Fui con la idea de una torta personalizada para el cumpleaños de mi hijo y la verdad me
+                                asesoraron muy bien, la torta exquisita.</p>
+                            <p>-Milagros G</p>
+    
+                        </div>
+                        <div class="card">
+                            
                         <p class="calificacion4">
                             <label for="radio1">★★★★★</label>
                         </p>
@@ -133,63 +133,9 @@
                             y los precios estan muy bien.</p>
                         <p>-Agustina A</p>
 
+                        </div>
                     </div>
             </section>
-
-            <div class="slider-wrap">
-                <div id="card-slider" class="slider">
-                  <div class="slider-item">
-                      <div class="animation-card_image">
-                          <img src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
-                      </div>
-                      <div class="animation-card_content">
-                          <h4 class="animation-card_content_title title-2">Charlize Theron 1</h4>
-                          <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-                          <p class="animation-card_content_city">New York, NY</p>
-                      </div>
-                  </div>
-                  <div class="slider-item">
-                      <div class="animation-card_image">
-                          <img src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
-                      </div>
-                      <div class="animation-card_content">
-                          <h4 class="animation-card_content_title title-2">Charlize Theron 2</h4>
-                          <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-                          <p class="animation-card_content_city">New York, NY</p>
-                      </div>
-                  </div>
-                  <div class="slider-item">
-                      <div class="animation-card_image">
-                          <img src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
-                      </div>
-                      <div class="animation-card_content">
-                          <h4 class="animation-card_content_title title-2">Charlize Theron 3</h4>
-                          <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-                          <p class="animation-card_content_city">New York, NY</p>
-                      </div>
-                  </div>
-                  <div class="slider-item">
-                      <div class="animation-card_image">
-                          <img src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
-                      </div>
-                      <div class="animation-card_content">
-                          <h4 class="animation-card_content_title title-2">Charlize Theron 4</h4>
-                          <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-                          <p class="animation-card_content_city">New York, NY</p>
-                      </div>
-                  </div>
-                  <div class="slider-item">
-                      <div class="animation-card_image">
-                          <img src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
-                      </div>
-                      <div class="animation-card_content">
-                          <h4 class="animation-card_content_title title-2">Charlize Theron 5</h4>
-                          <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
-                          <p class="animation-card_content_city">New York, NY</p>
-                      </div>
-                  </div>
-              </div>
-              </div>
 
         </main>
 
